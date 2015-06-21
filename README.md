@@ -1,2 +1,4 @@
-# Email-Signup-Mobile-App
-Little app to record email addresses to a text file
+# Email signup mobile app
+
+Little app to record email addresses to a text file,
+because people have poor hand-writing. :(
