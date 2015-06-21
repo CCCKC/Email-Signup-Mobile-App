@@ -62,7 +62,7 @@ local function SaveEmailAddress( event )
 		label_status:setTextColor( 0xff0000 )
 	else
 		destFile:write( "\n" )
-		destFile:write( event.text .. "\t" .. os.date( "(%Y-%m-%d %I:%M %p)" ) )
+		destFile:write( event.text .. ", " .. os.date( "%Y-%m-%d %I:%M %p" ) )
 	
 		destFile:close()
 		label_status:setText( "Registered email - Thank you!" )
